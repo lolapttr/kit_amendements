@@ -1,4 +1,4 @@
-# Exemple : Classer des amendements comme sourcés/non-sourcés avec ActiveTigger
+# Cas d'étude : Classer des amendements comme sourcés/non-sourcés avec ActiveTigger
 
 L’objectif est de prendre en main le logiciel ActiveTigger à partir d’une étude de cas simple : détecter automatiquement les amendements dits “sourcés” au sein d’un corpus d’amendements déposés par les députées [féminin universel] de l’Assemblée Nationale entre 2024 et 2026. 
 
@@ -6,7 +6,7 @@ Public visé : débutant (la question de recherche est simple) et francophone (c
 
 ## 1. Le contexte
 
-Les députées disposent du droit d’amendement, c’est-à-dire qu’elles peuvent soumettre au vote des modifications aux textes de loi qui leur sont présentées, que ce soit par le gouvernement (projet de loi) ou par d'autres députés (proposition de loi).   
+Les députées disposent du droit d’amendement, c’est-à-dire qu’elles peuvent soumettre au vote des modifications aux textes de loi qui leur sont présentés, que ce soit par le gouvernement (projet de loi) ou par d'autres députés (proposition de loi).   
 
 Un amendement peut émerger de multiples interactions, allant de discussions avec des administrées jusqu’à la lecture de rapports experts. Cependant, certains sont travaillés en étroite collaboration avec un ou plusieurs groupe(s) d’intérêt, voire proposés “clé en main” par ceux-ci. Pour lutter contre le risque de conflits d’intérêt et promouvoir la transparence de leurs pratiques, certaines députées ont pris pour habitude de citer nommément l’origine de l’amendement lorsque celui-ci provient d’une collaboration avec un représentant d’intérêt. C’est ce qu’on appelle le **_sourcing des amendements_**. 
 
@@ -47,12 +47,12 @@ Problème 2 : Des cas comme "Cet amendement est issu des travaux du Sénat (...)
 - - Cherche-t-on à dégager les amendements qui citent explicitement leur source ou spécificiquement ceux qui citent l'influence de groupes d'intérêts ? La démarche initiale portait sur la deuxième proposition, on choisit de rester dans cette direction.
 - - Les associations d'élus sont-elles des "lobbies" ? Plus difficile à déterminer. Des recherches plus approfondies sur la notion de représentant d'intérêt sont nécessaires.    
 
-3. Réparer le problème 2 en ajoutant une définition de la notion de représentant d'intérêt.   
+3. Répondre au problème 2 en ajoutant une définition de la notion de représentant d'intérêt.   
 > Ajout: On entend par "représentant d’intérêt" un groupe ou une institution extérieure à la représentation politique, représentant des intérêts privés, conformément à la définition de la HATVP. 
 
 Problème 3 : Des cas comme "Cet amendement, travaillé avec la profession, (...)" ou "Cet amendement a été travaillé avec le collectif [xx]" n'entrent pas dans la définition de la HATVP. Cela peut paraître insatisfaisant : choix est fait de les y inclure.  
 
-4. Réparer le problème 3 en élargissant la définition de la HATVP
+4. Répondre au problème 3 en élargissant la définition de la HATVP
 > Ajout: Cette définition reprend celle de la HATVP mais élargit son champ en n'exigeant pas une personnalité morale du représentant d'intérêt. 
 
 **La version finale complète du codebook peut être consultée dans codebook.md.** En plus de la définition de label discutée ici, elle contient des exemples de cas communs et limites. 
