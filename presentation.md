@@ -16,9 +16,8 @@ Ce cas d'étude a une visée pédagogique, mais il vise à étudier cette pratiq
 - La pratique est-elle répandue :
     - (RQ1) Combien d’amendements sont dits sourcés parmi les amendements déposés sous la XVIIème législature de l'Assemblée Nationale ? 
 - La pratique est-elle _uniformément_ répandue :
-    - (RQ2) Quel parti politique source-t-il *explicitement* le plus ses amendements ? 
-- L'influence déclarée est-elle liée au succès :
-    - (RQ3) Les amendements sourcés sont-ils plus susceptibles d'être adoptés que les amendements non-sourcés ? 
+    - (RQ2) Quel parti politique source-t-il le plus ses amendements ? 
+    - (RQ3) Le volume d'amendements sourcés évolue-t-il au cours du temps ?
   
 Méthodologiquement : Peut-on identifier les amendements sourcés sur un large corpus à partir d'un nombre limité d'annotations ? 
 
@@ -98,7 +97,7 @@ On commente ici les résultats sur le dataset complet.
 
 - (RQ1) : 6,6% des amendements seraient sourcés. La pratique est minoritaire mais pas non plus marginale.      
 - (RQ2) : En proportion, les non inscrits sont ceux qui déposent le plus d'amendements sourcés (17,51% de leurs amendements déposés sont sourcés). Sont-ils davantage soumis à influence ou davantage transparents ? Il faut aussi mettre en perspective ces chiffres avec le volume d'amendements déposés : les non-inscrits n'ont déposé que 695 amendements sur la période, contre 18k pour LFI.  
-- (RQ3) : Les amendements sourcés ne sont pas davantage adoptés que les non sourcés. Il y a peu d'éléments significatifs à commenter car 1/4 à 1/3 des sorts sont "null". 
+- (RQ3) : Le volume d'amendements sourcé varie fortement au cours du temps. Les grands moments parlementaires (projets loi finance) et des textes de loi concernant l'agriculture (proposition de loi visant à lever les contraintes à l'exercice du métier d'agriculteur dite "Loi Duplomb",projet de loi d'urgence pour la protection et la souveraineté agricoles) correspondent aux volumes d'amendements les plus élevés. L'importance de textes relatifs à l'agriculture pose de nouvelles question : les groupes d'intérêt sont-ils particulièrement actifs dans ce secteur ou bien leur influence est-elle davantage notifiée par rapport à d'autres secteurs ? Quels groupes d'intérêt sont les plus cités et par quels groupes politiques ?
 
 RQ Méthodologique : Notre étude a été possible, et on obtient de très bons scores à partir d'un nombre très limité d'annotations. 
 
